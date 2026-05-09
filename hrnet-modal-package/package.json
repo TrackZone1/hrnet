@@ -1,0 +1,12 @@
+{
+  "name": "hrnet-modal-react-component",
+  "version": "1.0.0",
+  "description": "React Modal component for HRnet",
+  "main": "src/Modal.jsx",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "author": "TrackZone1",
+  "license": "MIT"
+}
