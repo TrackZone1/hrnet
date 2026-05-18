@@ -96,8 +96,8 @@ const CreateEmployee = () => {
     e.preventDefault();
     const employeeToSave = {
       ...employee,
-      dateOfBirth: employee.dateOfBirth ? employee.dateOfBirth.toLocaleDateString() : '',
-      startDate: employee.startDate ? employee.startDate.toLocaleDateString() : ''
+      dateOfBirth: employee.dateOfBirth ? new Date(employee.dateOfBirth).toLocaleDateString() : '',
+      startDate: employee.startDate ? new Date(employee.startDate).toLocaleDateString() : ''
     };
     dispatch(addEmployee(employeeToSave));
     setIsModalOpen(true);
