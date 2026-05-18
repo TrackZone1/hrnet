@@ -5,14 +5,14 @@ React Modal component for HRnet.
 ## Installation
 
 ```bash
-npm install hrnet-modal-react-component
+npm install hrnet-modal-react-component-tz1
 ```
 
 ## Usage
 
 ```jsx
 import React, { useState } from 'react';
-import Modal from 'hrnet-modal-react-component';
+import Modal from 'hrnet-modal-react-component-tz1';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
