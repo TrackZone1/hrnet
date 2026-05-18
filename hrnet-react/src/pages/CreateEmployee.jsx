@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { addEmployee } from '../features/employeesSlice';
-import Modal from '../components/Modal/Modal';
+import Modal from 'hrnet-modal-react-component-tz1';
 
 const states = [
     { "name": "Alabama", "abbreviation": "AL" },
