@@ -24,10 +24,11 @@ The **Modal** component was chosen for manual conversion. It has been extracted 
 
 ## Performance Comparison
 
-A Lighthouse audit was performed on both versions. The React version shows significant improvements in:
-- **TBT (Total Blocking Time)**: Reduced due to the removal of heavy jQuery plugins.
-- **LCP (Largest Contentful Paint)**: Faster rendering of the employee list.
-- **SEO & Accessibility**: Improved through semantic HTML and modern React patterns.
+A detailed Lighthouse audit was performed on both versions to compare legacy and modern performance.
+
+- **[Lighthouse Comparison Matrix](../lighthouse_comparison.md)**: A summary of our findings and analysis.
+- **[jQuery Legacy Report (PDF)](../lighthouse-jquery.pdf)**: Detailed audit report for the legacy application.
+- **[React Modern Report (PDF)](../lighthouse-react.pdf)**: Detailed audit report for the modernized production build.
 
 ## Getting Started
 

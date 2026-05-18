@@ -22,10 +22,8 @@ L'ancienne version n'avait pas de métadonnées sémantiques ou de méta-descrip
 3. **Performance (100% partout)** :
 Sur ordinateur de bureau (Desktop), les deux applications s'affichent instantanément. C'est l'idéal pour l'expérience des employés.
 
-## Comment ouvrir les rapports ?
+## Rapports d'audits PDF
 
-Les fichiers de rapports détaillés sont dans le dossier :
-- Ancienne version : `lighthouse-jquery.html`
-- Version React : `lighthouse-react.html`
-
-Il suffit de double-cliquer dessus pour les ouvrir dans Chrome, et faire Ctrl+P pour les exporter en PDF.
+Les rapports d'audits détaillés au format PDF sont disponibles directement dans le dossier :
+- Ancienne version (jQuery) : [lighthouse-jquery.pdf](./lighthouse-jquery.pdf)
+- Nouvelle version (React) : [lighthouse-react.pdf](./lighthouse-react.pdf)
